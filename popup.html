@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FileCRBypass by Ayshdan</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #090d16 0%, #111827 100%);
+            width: 300px;
+            color: #f1f5f9;
+            font-family: system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+        
+        /* Premium Glowing Title */
+        h2 {
+            font-size: 1.35rem;
+            margin-top: 0;
+            margin-bottom: 6px;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 20px rgba(56, 189, 248, 0.15);
+        }
+
+        /* Active Badge with pulsing effect */
+        .status-container {
+            margin-bottom: 18px;
+        }
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(16, 185, 129, 0.1);
+            color: #34d399;
+            padding: 5px 12px;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            border: 1px solid rgba(52, 211, 153, 0.2);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .pulse-dot {
+            width: 6px;
+            height: 6px;
+            background-color: #10b981;
+            border-radius: 50%;
+            box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+            animation: pulse 1.6s infinite;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+            }
+            70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 6px rgba(16, 185, 129, 0);
+            }
+            100% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+            }
+        }
+
+        /* Description card */
+        .desc-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 0.85rem;
+            color: #94a3b8;
+            line-height: 1.4;
+            margin-bottom: 18px;
+        }
+
+        /* Action link button */
+        a.action-btn {
+            display: block;
+            background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 12px rgba(2, 132, 199, 0.2);
+        }
+        a.action-btn:hover {
+            transform: translateY(-1px);
+            background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+            box-shadow: 0 6px 16px rgba(2, 132, 199, 0.35);
+        }
+        a.action-btn:active {
+            transform: translateY(0);
+        }
+
+        /* Footer credits */
+        .footer {
+            margin-top: 20px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            font-size: 0.75rem;
+            color: #64748b;
+        }
+        .footer a {
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s ease;
+        }
+        .footer a:hover {
+            color: #7dd3fc;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h2>FileCRBypass</h2>
+    <div class="status-container">
+        <div class="status-badge">
+            <span class="pulse-dot"></span>
+            Active & Running
+        </div>
+    </div>
+    
+    <div class="desc-card">
+        Bypasses file installation limits and fetches direct, high-speed download links automatically.
+    </div>
+    
+    <a href="https://filecr.com/" target="_blank" class="action-btn">Open FileCR Store</a>
+    
+    <div class="footer">
+        Powered by <a href="https://ayshdan.com" target="_blank">Ayshdan Innovations</a>
+    </div>
+</body>
+</html>

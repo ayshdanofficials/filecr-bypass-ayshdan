@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "FileCRBypass by Ayshdan",
+    "version": "1.2.0",
+    "description": "⭐ Bypass FileCR's extension installation requirements and get direct download links easily! Powered by Ayshdan Innovations.",
+    "icons": {
+        "128": "icon.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "js": ["filecr.js"],
+            "matches": [
+                "https://filecr.com/*"
+            ],
+            "run_at": "document_start"
+        }
+    ]
+}
