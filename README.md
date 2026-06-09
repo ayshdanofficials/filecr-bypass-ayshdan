@@ -77,4 +77,4 @@ Thank me later!
 ---
 
 ### Credits
-Powered by ayshdan.com - Ayshdan Innovations
+Powered by - Ayshdan Innovations
