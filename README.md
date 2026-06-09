@@ -27,6 +27,18 @@ This extension lets you:
 
 ---
 
+## Screenshots
+
+Here are previews of the extension in action:
+
+![Download Button Injection](1.png)
+
+![Direct Download Links](2.png)
+
+![Extension Popup Menu](3.png)
+
+---
+
 ## How to Install in Google Chrome
 
 To install this unpacked developer extension locally, follow these simple steps:
@@ -44,15 +56,16 @@ To install this unpacked developer extension locally, follow these simple steps:
 
 4. Load the Extension Folder
    - Click the Load unpacked button in the top-left corner.
-   - Select the folder containing these files (the folder containing manifest.json) and click Select Folder.
+   - Navigate to the extracted folder (make sure you select the folder containing manifest.json) and click Select Folder.
 
 5. Download Your Software
    - Navigate to FileCR.com and open any software page.
    - Scroll down to the download area.
    - Click the green GET DOWNLOAD LINKS button.
-   - Your direct download or torrent link will appear instantly.
-  
-   
+   - Your clean direct and torrent links will appear instantly.
+
+---
+
 ## Support the Project
 
 If this project helped you download premium software safely, please show your support:
@@ -60,3 +73,8 @@ If this project helped you download premium software safely, please show your su
 - Share it with others who download from FileCR.
 
 Thank me later!
+
+---
+
+### Credits
+Powered by ayshdan.com - Ayshdan Innovations
